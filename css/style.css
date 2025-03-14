@@ -136,6 +136,8 @@ body{
     max-height: 436px;
     position: relative;
     z-index: 13;
+    top: -80px;
+    right: -15px;
     
 }
 
@@ -144,7 +146,7 @@ body{
     
     position: relative;
     width: 100%;
-    bottom: 35px;
+    bottom: 20px;
     z-index: 20;
     left: 10px;
 }
@@ -152,7 +154,7 @@ body{
 .coffe-bag-img{
     position: absolute;
     max-width: 474px;
-    top:118px;
+    top:108px;
     width: 100%;
     z-index: 22;
     left: 10px;
@@ -160,7 +162,7 @@ body{
 
 .header-enjoy{
     justify-content: space-evenly;
-    margin-top: 140px;
+    margin-top: 120px;
     margin-left: 135px;
     /* margin-right: px; */
     gap: 200px;
@@ -203,20 +205,204 @@ body{
     
 }
 
+#cappuccino{
+    background-color: rgba(255, 255, 255);
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-align: center;
+    border: 0.4rem solid rgb(236, 236, 224, 0.4); /* Transparent border */
+    color: rgba(47, 33, 5, 1);
+    border-radius: 42px;
+    max-width: 283px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+    position: absolute;
+    z-index: 31;
+    bottom: 263px;
+    right: 220px;
 
 
+}
+
+#rating{
+    background-color: rgba(255, 255, 255);
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-align: center;
+    border: 0.4rem solid rgb(236, 236, 224, 0.4); /* Transparent border */
+    color: rgba(47, 33, 5, 1);
+    border-radius: 42px;
+    max-width: 90px;
+    padding: 2px;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin: 0px;
+
+    position: absolute;
+    top: 100px;
+    right: -30px;
+    z-index: 30;
+   
+    
+   
 
 
+}
+#price{
+    background-color: rgba(255, 255, 255);
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-align: center;
+    border: 0.4rem solid rgb(236, 236, 224, 0.4); /* Transparent border */
+    color: rgba(47, 33, 5, 1);
+    border-radius: 42px;
+    max-width: 283px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+    position: absolute;
+    z-index: 30;
+    top: 280px;
+
+}
+
+.corner-bg-img{
+    position: absolute;
+    left: 0px;
+    top: 580px;
+    /* z-index: -1; */
+    position: absolute;
+    z-index: 15;
+    left: 170px;
+    top: 600px;
+
+}
+
+/* popular more section style */
 
 
+.new-bg{
+    background-color: rgba(249, 217, 170, 1);
+    max-width: 1268px;
+    height: 367px;
+    border: 1px solid brown;
+    margin: 0 auto;
+    border-radius: 64px;
+    position: relative;
+    z-index: 20;
+    top: -210px;
+}
+
+.more-container{
+    justify-content: center;
+    gap: 38px;
+}
+
+.more{
+    background-color: white;
+    padding: 10px;
+    position: relative;
+    z-index: 30;
+    top: 90px;
+    border-radius: 12px;
+    border:  0.4rem solid rgb(236, 236, 224, 0.5);
+
+}
+
+.more-title{
+    font-size: 32px;
+    font-weight: 600;
+    position: relative;
+    z-index: 17;
+    left: 340px;
+    top: 60px;
+}
 
 
+.more-rating{
+    position: relative;
+    background-color: white;
+    max-width: 42px;
+    font-size: 0.7rem;
+    z-index: 35;
+    top: 20px;
+    left: 20px;
+    right: 40px;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    padding: 2px;
 
+}
 
+.more-coffe-img{
+      position: relative;
+      z-index: 33;
+      border-radius: 20px;
+      bottom: 30px;
+      
+}
 
+.text-con-more{
+    justify-content: space-between;
+}
 
+.coffe-name, .coffe-price
+{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 0px;
+}
 
+.more-btn{
+    justify-content: space-between;
+}
 
+.cold-btn{
+    margin-right: 140px;
+    background-color: white;
+    color:rgba(255, 210, 143, 1);
+    border: 1px solid rgba(255, 210, 143, 1);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+}
+
+.hot-btn{
+    background-color: white;
+    color: rgba(255, 144, 43, 1);
+    border: 1px solid rgba(255, 144, 43, 1);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+}
+
+.chart-round-icon{
+    
+    border-radius: 60%;
+    padding: 10px;
+    
+    color: white;
+    background: rgba(255, 144, 43, 1);
+    text-align: center;
+}
+
+.orange-line{
+    width: 74px;
+    height: 2px;
+   
+    background-color: rgba(255, 144, 43, 1);
+    border: 1px solid orange;
+    position: relative;
+    left: -710px;
+    right: 100px;
+    top: -17px;
+    z-index: 18px;
+
+}
 
 
 
