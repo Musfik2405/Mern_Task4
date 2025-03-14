@@ -1,0 +1,272 @@
+/* font related style */
+
+/* shared style */
+.display-flex{
+    display: flex;
+}
+
+.background-orange{
+    background-color: rgb(246, 235, 218, 1);
+}
+
+.orange-text{
+    color:rgba(255, 144, 43, 1);
+}
+
+.nav-section{
+    max-width: 1531px;
+    margin: 0 auto;
+
+    /* Problelm 01 */
+    /* margin-top: 70px;  margin 70 px dile uprer baground white hoi    */
+
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.p-btn{
+    background-color: rgba(47, 33, 5, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 33px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    max-width: 170px;
+    padding: 10px 32px;
+    text-align: center;
+    
+    
+    
+}
+
+
+/* nav related style */
+
+.li-section{
+    list-style: none;
+}
+
+.logo, .mid-part, .search-box{
+    margin-top: 30px;
+}
+
+.a-section{
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+}
+.a-section-o{
+    text-decoration: none;
+}
+
+.nav-section{
+  justify-content: space-between;
+  padding: 20px;
+  position: relative;
+  /* border: 1px solid red; */
+  z-index: 10;
+  
+}
+
+.ul-list{
+    gap: 30px;
+}
+
+.search-section{
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 35px;
+    font-size: 0.8rem;
+    font-weight: 400;
+    max-width: 222px;
+    margin: 10px;
+    text-align: start;
+    
+   
+    outline: none;
+    
+}
+.search-icons{
+ /* text-align: ; */
+ /* problem 02 */
+ /* icon upore dite uthe thake  */
+ margin-top: 8px;
+ margin-left: 10px;
+
+}
+
+.box-search{
+    background-color: white;
+    border-radius: 35px;
+    max-width: 222px;
+    padding: 5px;
+    /* border: 1px solid brown; */
+    text-align: center;
+    outline: none;
+
+}
+
+.chart-box {
+    justify-content: center;
+    align-items: center;
+}
+
+.search-box{
+    gap: 26px;
+}
+
+.bg-img{
+    position: absolute;
+   top: -34px;
+  left: 1202px;
+   z-index: -1;
+}
+
+
+
+
+/* header section related style */
+
+
+.header-container-coffe{
+    background-color: rgba(47, 33, 5, 1);
+    border-radius: 50%;
+    max-width: 453px;
+    max-height: 436px;
+    position: relative;
+    z-index: 13;
+    
+}
+
+
+.coffe-img{
+    
+    position: relative;
+    width: 100%;
+    bottom: 35px;
+    z-index: 20;
+    left: 10px;
+}
+
+.coffe-bag-img{
+    position: absolute;
+    max-width: 474px;
+    top:118px;
+    width: 100%;
+    z-index: 22;
+    left: 10px;
+}
+
+.header-enjoy{
+    justify-content: space-evenly;
+    margin-top: 140px;
+    margin-left: 135px;
+    /* margin-right: px; */
+    gap: 200px;
+}
+
+.header-title{
+    font-size: 3rem;
+    font-weight: 600;
+
+}
+.header-desc{
+    font-size: 1.1rem;
+    color: rgba(126, 125, 122, 1);
+    font-weight: 400;
+}
+
+
+.transparent-btn{
+    background-color: transparent;
+    color: rgba(244, 174, 38, 1);
+    border: none;
+    border-radius: 33px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    max-width: 170px;
+    padding: 10px 24px;
+    
+}
+
+.button-icon{
+    background-color: rgba(255, 144, 43, 1);
+  
+    border-radius: 50%;
+    /* filter: grayscale(0) brightness(1); */
+    color: white;
+    margin-left: 5px;
+   /* filter: brightness(0) invert(1); */
+}
+#btn-icon{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media tag */
+@media screen and (max-width:576px) {
+    .nav-section,
+    .ul-list
+    
+    
+    {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .search-box {
+        flex-direction: column;
+        justify-content: center;
+        
+        /* margin-right: 0px; */
+    }
+
+    .box-search{
+        
+        margin: 0 auto;
+        
+    }
+
+    .search-section{
+        text-align: center;
+    }
+
+    .bg-img{
+        width: 100%;
+        top: 70px;
+        left: 0px;
+        right: 0px;
+    }
+    
+    
+}
