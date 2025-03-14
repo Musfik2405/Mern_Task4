@@ -288,7 +288,7 @@ body{
     background-color: rgba(249, 217, 170, 1);
     max-width: 1268px;
     height: 367px;
-    border: 1px solid brown;
+    /* border: 1px solid brown; */
     margin: 0 auto;
     border-radius: 64px;
     position: relative;
@@ -404,7 +404,286 @@ body{
 
 }
 
+/* how to use related styel */
 
+.bag-white{
+    background-color: white;
+   
+    margin: 0 auto;
+    position: relative;
+    top: -400px;
+  
+
+}
+
+.use-title{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 100px;
+    padding-top: 200px;
+    margin-bottom: 0px;
+}
+
+.another-con{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.use-container{
+    justify-content: space-between;
+}
+.use{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.use-name{
+    font-size: 1.4rem;
+    font-size: 600;
+    margin-bottom: 0px;
+    color: rgba(47, 33, 5, 1);
+    text-align: center;
+    margin-top: 10px;
+}
+
+.use-desc{
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align: center;
+}
+/* about section related style */
+.about-section{
+   background-color:rgba(246, 235, 218, 1);
+   justify-content: center;
+   gap: 174px;
+}
+
+.about-title{
+    font-size: 2rem;
+    font-weight: 600;
+    
+}
+
+.about-det{
+    font-size: 1.3rem;
+    font-weight: 600;
+
+}
+.about-desc{
+    font-size: 1.1rem;
+    font-size: 400;
+    
+}
+
+.about-con-trext{
+    margin-top: 84px;
+}
+
+.co-img{
+    position: relative;
+    top: -133px;
+    border: 4px solid rgba(0, 0, 0, 0.16);
+    border-radius: 12px;
+}
+
+.p-btn-new{
+    font-size: 0.8rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 33px;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(47, 33, 5, 1);
+    color: rgba(244, 174, 38, 1);
+    max-width: 142px;
+}
+
+.menu-con{
+   
+}
+
+.cover{
+    box-shadow: 0px 0px 16px 0 rgba(0, 0, 0, 0.16);
+    border: none;
+    padding: 20px;
+}
+
+.menu-title{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 100px;
+    padding-left: 300px;
+    margin-bottom: -40px;
+}
+
+menu{
+    margin: 0 auto;
+}
+
+
+/* say related style */
+.say-section-ho{
+    margin-top: 250px;
+}
+
+.det-con-fr{
+    background-color: rgba(255, 203, 124, 1);
+    width: 226px;
+    border-radius: 8px;
+    border: 6px solid rgba(255, 211, 144, 0.62);
+    
+    
+}
+
+.people-name{
+    margin-top: 0px;
+    font-size: 1.2rem;
+    margin-bottom: 0px;
+}
+.people-desc{
+    font-size: 1.1rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.say-section{
+  
+    background-color: rgba(246, 235, 218, 1);
+    max-width: 1095px;
+    height: 484px;
+    border-radius: 24px;
+    position: relative;
+    
+}
+
+.say-con{
+    justify-content: space-between;
+    position: relative;
+    /* left : 50px */
+    top: -400px;
+    margin-left: 130px;
+    z-index: 10;
+    
+}
+
+.say-text{
+    margin-top: 63px;
+    
+}
+.say-title{
+
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.say-desc{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+
+.det-con-fr{
+    position: relative;
+    z-index: 20;
+    bottom: 515px;
+    left: 700px;
+    padding: 10px;
+}
+
+
+.sec{
+    background-color: rgba(255, 203, 124, 1);
+    width: 226px;
+    border-radius: 8px;
+    border: 6px solid rgba(255, 211, 144, 0.62);
+    position: relative;
+    z-index: 20;
+    bottom: 605px;
+    left: 1100px;
+    padding: 10px;
+    
+}
+
+.thr{
+    background-color: rgba(255, 203, 124, 1);
+    width: 226px;
+    border-radius: 8px;
+    border: 6px solid rgba(255, 211, 144, 0.22);
+    position: relative;
+    z-index: 20;
+    bottom: 700px;
+    left: 1520px;
+    padding: 10px;
+
+    
+}
+
+.footer-section{
+    background-image: url(/Imagess/unsplash_ftA71vetxuo.png);
+    background-repeat: none;
+    background-position: center;
+    background-attachment: fixed;
+    background-size:contain;
+    max-width: 1170px;
+    border-radius: 24px;
+    margin: 0 auto;
+    
+    width: 100%;
+   margin-top: -500px;
+}
+
+.footer-title{
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    padding-top: 133px;
+}
+
+.bar{
+    padding-bottom: 130px;
+    text-align: center;
+    
+}
+
+.aho{
+    background-color: white;
+    border: none;
+    text-align: center;
+    max-width: 486px;
+    margin: 0 auto;
+    border-radius: 64px;
+
+}
+
+#eamil{
+    width: 347.5px;
+    border: none;
+    border-radius: 64px;
+    padding-left: 10px;
+    font-size: 1rem;
+    outline: none;
+    padding: 10px;
+}
+
+#btn-n{
+    width: 138px;
+    padding: 0px;
+    font-size: 0.8rem;
+    height: 44px;
+
+
+    background-color: rgba(47, 33, 5, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 33px;
+    /* font-size: 0.9rem; */
+    font-weight: 400;
+    max-width: 170px;
+    padding: 10px 32px;
+    text-align: center;
+}
 
 
 
@@ -422,13 +701,18 @@ body{
 /* media tag */
 @media screen and (max-width:576px) {
     .nav-section,
-    .ul-list
-    
+    .ul-list,
+    .header-enjoy,
+    .more-container,
+    .about-section,
+    .say-con
     
     {
         flex-direction: column;
         text-align: center;
     }
+
+  
 
     .search-box {
         flex-direction: column;
@@ -453,6 +737,79 @@ body{
         left: 0px;
         right: 0px;
     }
+    .header-enjoy{
+        margin-left: 0px;
+        justify-content: center;
+    }
+
+    .coffe-img{
+        width: 100%;
+    }
+    .corner-bg-img{
+        width: 100%;
+        left: 0px;
+        top: 1400px;
+
+    }
+    .more-rating{
+        left:60px;
+    }
+
+   
+
+    .more-title{
+        left: 0px;
+        text-align: center;
+    }
+
+    .use-container{
+        flex-direction: column;
+    }
+    .use-title{
+        text-align: center;
+    }
+   .about-section{
+    gap: 10px;
     
+   }
+
+   .about-con-trext{
+    margin-top: -70px;
+   }
+
+   .menu-title{
+    padding-left: 0px;
+    text-align: center;
+    /* margin-top: 0px; */
+    margin-bottom: 0px;
+
+   }
+
+   .say-con{
+    margin-left: 0px;
+   }
+   .det-con-fr{
+    top: -1700px;
     
+    left:0px;
+    right: 0px;
+    bottom: 0px;
+   }
+
+   .sec{
+    top: -1200px;
+    
+    left:0px;
+    right: 0px;
+    bottom: 0px;
+   }
+    
+   .thr{
+    top: -800px;
+    
+    left:0px;
+    right: 0px;
+    bottom: 0px;
+   }
 }
+
